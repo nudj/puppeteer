@@ -1,0 +1,37 @@
+{
+  "name": "puppeteer",
+  "version": "0.0.1",
+  "description": "Nudj puppeteer",
+  "main": "lib",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nudj/puppeteer.git"
+  },
+  "author": "Nick Collings",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nudj/puppeteer/issues"
+  },
+  "homepage": "https://github.com/nudj/puppeteer#readme",
+  "standard": {
+    "parser": "babel-eslint",
+    "ignore": [
+      "lib/server/assets",
+      "lib/server/build*",
+      "lib/node_modules",
+      "webpack*"
+    ]
+  },
+  "dependencies": {
+    "puppeteer": "^0.9.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-eslint": "^7.1.1",
+    "chai": "^3.5.0",
+    "dirty-chai": "^1.2.2",
+    "mocha": "^3.2.0",
+    "nodemon": "^1.11.0",
+    "standard": "^9.0.0"
+  }
+}
